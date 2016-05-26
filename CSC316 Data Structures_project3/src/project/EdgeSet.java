@@ -1,6 +1,10 @@
 package project;
 
-
+/**
+ * Linked list used to hold Edge objects.
+ * @author Philip
+ *
+ */
 public class EdgeSet {
 
 	private Node head;

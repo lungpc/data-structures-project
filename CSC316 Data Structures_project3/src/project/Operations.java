@@ -5,6 +5,14 @@ import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.util.Scanner;
 
+/**
+ * Program creates a minimum spanning tree using Kruskal's algorithm. It takes input from
+ * a .txt file to create Edge objects from. Then it creates a .txt output file with the
+ * tree structure. 
+ * @author Philip
+ *
+ */
+
 public class Operations {
 	/* Kruskal's algorithm for a minimum spanning tree */
 	private static KruskalMST mst;
@@ -56,7 +64,7 @@ public class Operations {
 	}
 
 	/**
-	 * Main method.
+	 * Main method. Creates the necessary structures and runs Kruskal's algorithm. 
 	 * 
 	 * @param args
 	 * @throws FileNotFoundException
