@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Program creates a minimum spanning tree using Kruskal's algorithm. It takes input from
  * a .txt file to create Edge objects from. Then it creates a .txt output file with the
  * tree structure. 
- * @author Philip
+ * @author Philip Lung
  *
  */
 
