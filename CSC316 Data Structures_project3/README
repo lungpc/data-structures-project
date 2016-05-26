@@ -1,0 +1,2 @@
+A program that uses Kruskal's algorithm to create a minimum spanning tree structure.
+It utilizes linked lists, heaps, arrays, lists, uptree, and object nodes. 
