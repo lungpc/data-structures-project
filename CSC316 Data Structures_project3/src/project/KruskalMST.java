@@ -2,6 +2,15 @@ package project;
 
 import java.util.Scanner;
 
+/**
+ * Kruskal's algorithm finds an edge of least possible weight
+ * that connects any two trees in the forest. It is a greedy algorithm
+ * in graph theory. It finds a minimum spanning tree for a connected 
+ * weighted graph. 
+ * @author Philip Lung
+ *
+ */
+
 public class KruskalMST {
 
 	/* UpTree structure that holds the vertices */
