@@ -1,5 +1,5 @@
 A program that uses Kruskal's algorithm to create a minimum spanning tree structure.
-It utilizes linked lists, heaps, arrays, lists, uptree, and object nodes. 
+It utilizes linked lists, heaps, arrays, lists, uptrees, and node objects. 
 
 Kruskal's is a greedy algorithm in graph theory used on connected weighted graphs. It finds the edge with the smallest weight that
 connects any two trees in the forest. And it continues to add edges of increasing weight, until there are no disconnected trees left. 
