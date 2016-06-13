@@ -5,7 +5,15 @@ import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.util.Scanner;
 
-
+/**
+ * Program scans input from a .txt file that has an integer key with a String value. It
+ * creates a linked list of all the unique key-value pairings, and a separate array of every 
+ * (including duplicates) key in the file. It then uses that array of keys to perform a 
+ * sequence of lookUp() actions on the list of key-value pairings. If found, that node is 
+ * moved up one spot in the list.
+ * @author Philip Lung
+ *
+ */
 public class Transpose {
 
 	/* Dictionary that holds each key-value pair */

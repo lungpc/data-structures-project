@@ -141,7 +141,7 @@ public class TransposeList {
 	}
 	
 	/**
-	 * Adds a new entry to the front of the list.
+	 * Adds a new entry to a certain point in the list.
 	 * @param n Node that is being inserted into list.
 	 * @param point in the list to insert at.
 	 */
@@ -203,7 +203,7 @@ public class TransposeList {
 	
 	/**
 	 * Finds an entry with a particular key and performs 
-	 * a move-to-front operation on that node.
+	 * a transpose operation on that node.
 	 * @param key Key integer to search for 
 	 */
 	public void find(int key) {
@@ -219,7 +219,7 @@ public class TransposeList {
 	}
 	
 	/**
-	 * Executes a series of move-to-front actions on the entries in the linked 
+	 * Executes a series of transpose actions on the entries in the linked 
 	 * list dictionary based on the sequence of keys in the array we have built. 
 	 */
 	public void findSequence() {
