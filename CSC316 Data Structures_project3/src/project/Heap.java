@@ -11,7 +11,7 @@ import java.util.NoSuchElementException;
  */
 
 public class Heap {
-	/* An array of integers which represent a heap structure */
+	/* An array of edges which represent a heap structure */
 	private Edge[] edges;
 	/* Constant for the maximum number of edges in the project */
 	private static final int MAX_EDGES = 5000;

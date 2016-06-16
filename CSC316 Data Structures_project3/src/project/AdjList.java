@@ -3,7 +3,7 @@ package project;
 /**
  * An array of linked list structures that models the adjacency list. 
  * Represents the entire connected graph. 
- * @author Philip
+ * @author Philip Lung
  *
  */
 public class AdjList {
