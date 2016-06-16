@@ -7,9 +7,9 @@ import java.util.Scanner;
 
 /**
  * This program scans input from a .txt file that has an integer key with a String value. It
- * creates a linked list of all the unique key-value pairings, and a separate array of every 
+ * creates an array list of all the unique key-value pairings, and another separate array of every 
  * (including duplicates) key in the file. It then goes through a binary search operation where it 
- * uses the keys in the array to look for the key-value object in the list. 
+ * uses the keys in the array to look for the key-value object in the array list. 
  * @author Philip Lung
  *
  */
